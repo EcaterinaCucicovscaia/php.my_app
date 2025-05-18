@@ -1,0 +1,57 @@
+[
+    {
+        "question": "Что такое PHP?",
+        "type": "single",
+        "options": [
+            "База данных",
+            "Язык программирования",
+            "Веб-сервер",
+            "Операционная система"
+        ],
+        "correct": ["Язык программирования"]
+    },
+    {
+        "question": "Какие из следующих переменных корректны в PHP?",
+        "type": "multiple",
+        "options": [
+            "$variable",
+            "2variable",
+            "$_variable",
+            "variable$"
+        ],
+        "correct": ["$variable", "$_variable"]
+    },
+    {
+        "question": "Как в PHP объявить функцию?",
+        "type": "single",
+        "options": [
+            "function myFunction() {}",
+            "def myFunction() {}",
+            "func myFunction() {}",
+            "declare function myFunction() {}"
+        ],
+        "correct": ["function myFunction() {}"]
+    },
+    {
+        "question": "Какие суперглобальные массивы существуют в PHP?",
+        "type": "multiple",
+        "options": [
+            "$_GET",
+            "$_POST",
+            "$_SESSION",
+            "$GLOBALS"
+        ],
+        "correct": ["$_GET", "$_POST", "$_SESSION", "$GLOBALS"]
+    },
+    {
+        "question": "Какой оператор используется для объединения строк в PHP?",
+        "type": "single",
+        "options": [
+            ".",
+            "+",
+            "&",
+            "++"
+        ],
+        "correct": ["."]
+    }
+]
